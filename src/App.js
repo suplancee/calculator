@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div className="calculator">
-            <h1>Calculator of Lance P. Chincuanco - IT3A</h1>
+            <h1>Lance P. Chincuanco - IT3A</h1>
             <input type="text" value={display} readOnly />
             <div className="buttons">
                 {['1', '2', '3', '+', '4', '5', '6', '-', '7', '8', '9', '*', '0', '=', 'C'].map((button) => (
